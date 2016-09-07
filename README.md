@@ -13,20 +13,14 @@ $ npm start
 * open your browser http://localhost:8080/build/
 
 ### demo contents
-1. demo1
-- Delivery props
+1. demo1: `Delivery props`
 
-2. demo2
-- jsx
+2. demo2: `jsx`
 
-3. demo3
-- state
+3. demo3: `state`
 
-4. demo4
-- life cycle
+4. demo4: `life cycle`
 
-5. demo5
-- form
+5. demo5: `form`
 
-6. demo6
-- shopping cart
+6. demo6: `shopping cart`
