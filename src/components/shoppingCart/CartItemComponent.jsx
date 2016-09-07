@@ -6,6 +6,7 @@ export default class CartItemComponent extends Component {
     price: PropTypes.number,
     count: PropTypes.number,
     id: PropTypes.number,
+    url: PropTypes.string,
     handleCountChange: PropTypes.func,
   }
   static defaultProps = {
@@ -33,7 +34,7 @@ export default class CartItemComponent extends Component {
     return (
       <div className="item">
         <div className="itemDetail">
-          <span className="pic"></span>
+          <span className="pic"><img alt="book" src={this.props.url} /></span>
           <div className="product">
             <h4>{this.props.proName}</h4>
             <p>单价：{this.props.price}</p>
