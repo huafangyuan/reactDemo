@@ -11,7 +11,7 @@ $ npm i
 $ npm start
 ```
 * open your browser http://localhost:8080/build/
-![shopping cart](./src/assets/1.png)
+![shopping cart](./src/assets/shoppingCart.png)
 
 ### demo contents
 1. demo1: `Delivery props`
