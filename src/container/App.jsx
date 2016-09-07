@@ -30,7 +30,7 @@ class App extends Component {
           <li><span onClick={() => this.setState({ demo: 2 })}>state演示</span></li>
           <li><span onClick={() => this.setState({ demo: 3 })}>生命周期</span></li>
           <li><span onClick={() => this.setState({ demo: 4 })}>表单示例</span></li>
-          <li><span onClick={() => this.setState({ demo: 5 })}>表单示例</span></li>
+          <li><span onClick={() => this.setState({ demo: 5 })}>购物车</span></li>
         </ul>
         {this.state.demo === 0 && <Demo1 message="hello" />}
         {this.state.demo === 1 && <JsxDemo name="chenyao" {...data} />}
